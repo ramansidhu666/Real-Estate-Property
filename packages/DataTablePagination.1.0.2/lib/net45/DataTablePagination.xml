@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataTablePagination</name>
+    </assembly>
+    <members>
+        <member name="T:DataTablePagination.Helpers.SearchHelper`1">
+            <summary>
+            Search in list helper
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:DataTablePagination.Helpers.SearchHelper`1.RealizeSearching(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{`0})">
+            <summary>
+            Realize the search for parameter in list
+            </summary>
+            <param name="param">Parameter to search</param>
+            <param name="propertyNames">List of property names of entity</param>
+            <param name="data">List</param>
+            <returns>List filtered</returns>
+        </member>
+        <member name="T:DataTablePagination.Helpers.SortingHelper`1">
+            <summary>
+            Sorting Helper
+            </summary>
+            <typeparam name="T">Entity to sort</typeparam>
+        </member>
+        <member name="M:DataTablePagination.Helpers.SortingHelper`1.RealizeSorting(DataTablePagination.Models.SortParams,System.Collections.Generic.List{`0})">
+            <summary>
+            Realizing sort in the list
+            </summary>
+            <param name="sort">Parameters to sort (property name and order direction)</param>
+            <param name="data">List</param>
+            <returns>List sorted</returns>
+        </member>
+        <member name="T:DataTablePagination.Models.PageContainer`1">
+            <summary>
+            Pagination container
+            </summary>
+            <typeparam name="T">Entity</typeparam>
+        </member>
+        <member name="M:DataTablePagination.Models.PageContainer`1.#ctor(System.String,System.Int32,System.Int32,System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Initialize the container
+            </summary>
+            <param name="drawInformed">Draw</param>
+            <param name="recordsCount">Total of records from the list</param>
+            <param name="recordsFilteredCount">Total records filtered from the list</param>
+            <param name="list">List</param>
+        </member>
+        <member name="T:DataTablePagination.Models.PageParams`1">
+            <summary>
+            Pagination parameters
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:DataTablePagination.Models.PageParams`1.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Collections.Generic.List{`0},System.Collections.Generic.List{System.String})">
+            <summary>
+            Initialize the parameters
+            </summary>
+            <param name="searchParam">Parameter to search</param>
+            <param name="selectedDraw">Draw</param>
+            <param name="propertyToOrder">Property name to order</param>
+            <param name="currentOrder">Current id to order</param>
+            <param name="currentOrderDirection">Current order direction</param>
+            <param name="initialRecord">Initial record position</param>
+            <param name="pageSize">Page Size</param>
+            <param name="data">List</param>
+            <param name="names">List of displayed properties</param>
+        </member>
+        <member name="T:DataTablePagination.Models.SortParams">
+            <summary>
+            Sort Parameters
+            </summary>
+        </member>
+        <member name="M:DataTablePagination.Models.SortParams.#ctor(System.String,System.String)">
+            <summary>
+            Initialize the parameters
+            </summary>
+            <param name="direction">Sort Direction</param>
+            <param name="propertyName">Property name to sort</param>
+        </member>
+        <member name="T:DataTablePagination.PageManager`1">
+            <summary>
+            Pagination Manager
+            </summary>
+            <typeparam name="T">Entity to page</typeparam>
+        </member>
+        <member name="M:DataTablePagination.PageManager`1.RealizePaging(DataTablePagination.Models.PageParams{`0})">
+            <summary>
+            Realize paginaton in list
+            </summary>
+            <param name="pageParams">Parameters like list to page, order, start record, etc.</param>
+            <returns>Contianer with list, total records and records filtered</returns>
+        </member>
+    </members>
+</doc>

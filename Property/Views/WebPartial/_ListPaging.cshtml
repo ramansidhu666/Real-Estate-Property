@@ -1,0 +1,27 @@
+﻿@model  Property.Entity.MainModel
+
+ <!-- pager -->
+@if (Model.Pager.EndPage > 1)
+            {
+    <ul "pagination pagination--t-margin" >
+        @if (Model.Pager.CurrentPage > 1)
+        {  
+            <li class="pagination__item" data-id="1")">
+                <a href="#" class="pagination__link pagination__link_prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            </li>
+        }
+
+        @for (var page = Model.Pager.StartPage; page <= Model.Pager.EndPage; page++)
+        {            
+            <li class="pagination__item" data-id="@page">
+                <a href="#" class="@(page == Model.Pager.CurrentPage ? "pagination__link--selected" : "") pagination__link ">@page</a>
+            </li>
+        }
+
+        @if (Model.Pager.CurrentPage < Model.Pager.TotalPages)
+        {
+            
+            <li class="pagination__item" data-id="@(Model.Pager.TotalPages)"><a href="#" class="pagination__link pagination__link_next"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+        }
+    </ul>
+}

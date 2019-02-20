@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Entity\bin\Debug\RealEstate.Entity.dll
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Entity\bin\Debug\RealEstate.Entity.pdb
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Entity\obj\Debug\RealEstate.Entity.dll
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Entity\obj\Debug\RealEstate.Entity.pdb
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Entity\obj\Debug\RealEstate.Entity.csprojResolveAssemblyReference.cache
+C:\sites\Real Estate Property\RealEstate.Entity\bin\Debug\RealEstate.Entity.dll
+C:\sites\Real Estate Property\RealEstate.Entity\bin\Debug\RealEstate.Entity.pdb
+C:\sites\Real Estate Property\RealEstate.Entity\obj\Debug\RealEstate.Entity.dll
+C:\sites\Real Estate Property\RealEstate.Entity\obj\Debug\RealEstate.Entity.pdb

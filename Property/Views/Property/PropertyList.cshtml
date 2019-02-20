@@ -1,0 +1,81 @@
+﻿@model  Property.Entity.MainModel
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_LayoutInner.cshtml";
+}
+
+
+
+
+
+<script src="~/scripts/jquery-1.7.2.min.js"></script>
+
+
+<div class="se-pre-con" >
+    
+</div>
+    @Html.HiddenFor(model => model.CurrentPropertyType);
+    <section class="main-listing">
+        <div class="container">
+            <ul class="ht-breadcrumbs ht-breadcrumbs--y-padding">
+                <li class="ht-breadcrumbs__item"><a href="#" class="ht-breadcrumbs__link"><span class="ht-breadcrumbs__title">Home</span></a></li>
+                <li class="ht-breadcrumbs__item"><a href="#" class="ht-breadcrumbs__link"><span class="ht-breadcrumbs__title">Listing</span></a></li>
+                <li class="ht-breadcrumbs__item"><span class="ht-breadcrumbs__page">List View V1</span></li>
+            </ul><!-- ht-breadcrumb -->
+        </div><!-- .container -->
+        <div class="main-listing__main">
+            <div class="container">
+                <div class="row">
+                    <h1 class="section__title section__title--centered section__title--b-margin-40">Property For Sale</h1>
+                    <aside class="col-md-3">
+                       @{Html.RenderPartial("~/Views/WebPartial/SearchBarInner.cshtml");}
+                        <section class="widget main-listing__widget widget__news">
+                            <h3 class="widget__title">Get to Know</h3>
+                            <ul class="widget__news-list">
+                                <li class="widget__news-item"><a href="#">Outer Sunset Real Estate: <span>San Francisco Neighborhood Guide</span></a></li>
+                                <li class="widget__news-item"><a href="#">Pacific Heights Real Estate: <span>San Francisco CA Neighborhood</span></a></li>
+                                <li class="widget__news-item"><a href="#">Mission District San Francisco: <span>Authentic Community</span></a></li>
+                                <li class="widget__news-item"><a href="#">Hayes Valley Real Estate: <span>San Francisco CA Neighborhood</span></a></li>
+                            </ul>
+                        </section><!-- .widget -->
+                    </aside><!-- .col -->
+                    <main class="col-md-9">
+                        <div class="listing-sort listing-sort--main-listing">
+                            <div class="listing-sort__inner">
+                                <ul class="listing-sort__list">
+                                    <li class="listing-sort__item" id="ListingSection" ><a href="#" class="listing-sort__link listing-sort__link--active"><i class="fa fa-th-list listing-sort__icon" aria-hidden="true" ></i></a></li>
+                                    <li class="listing-sort__item" id="GridSection" ><a href="#" class="listing-sort__link"><i class="fa fa-th-large listing-sort__icon" aria-hidden="true" ></i></a></li>
+                                </ul>
+
+                                <span class="listing-sort__result">@Model.Pager.TotalItems items found</span>
+
+                               
+                            </div><!-- .listing-sort__inner -->
+                        </div><!-- .listing-sort -->
+
+                    <div id="mainlistsection">
+                        @{Html.RenderPartial("~/Views/WebPartial/_InnerListing.cshtml", Model);}
+                        
+                    </div>
+                        
+                     
+                                          
+                      
+                    </main><!-- .col -->
+                </div><!-- row -->
+            </div><!-- .container -->
+        </div><!-- .main-listing__main -->
+    </section><!-- .main-listing -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+        $(function () {
+           
+            $(".se-pre-con").fadeOut("slow");;
+          
+        });
+
+
+       
+    </script>
+   
+

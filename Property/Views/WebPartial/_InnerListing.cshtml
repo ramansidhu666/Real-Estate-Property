@@ -1,0 +1,57 @@
+﻿@model Property.Entity.MainModel
+
+<section id="listsection">
+
+    @foreach (var item in Model.PropertiesModel)
+    {
+        @*<tr>
+            <td>*@
+        <div class="item-grid__container">
+            <div class="listing listing--v2">
+                <div class="item-grid__image-container item-grid__image-container--v2">
+                    <a href="single_property_1.html">
+                        <div class="item-grid__image-overlay"></div><!-- .item-grid__image-overlay -->
+                        <img src="@item.pImage" alt="Castalia Shibakoen" class="listing__img inner_img_height">
+                        <span class="item__label">For Sale</span>
+                        <span class="listing__favorite listing__favorite--v2"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                    </a>
+                </div><!-- .col -->
+
+                <div class="item-grid__content-container item-grid__content-container--v2">
+                    <div class="listing__content--v2">
+                        <div class="listing__header">
+                            <div class="listing__header-primary">
+                                <span class="listing__type">@item.Municipality</span>
+                                <h3 class="listing__title"><a href="@Url.Action("GetPropertyDetail", "Property",new {PropertyType=Model.CurrentPropertyType,MLS=item.MLS.ToString() })">@item.Street</a></h3>
+                                <p class="listing__location"><span class="ion-ios-location-outline listing__location-icon"></span> @item.Address</p>
+                            </div><!-- .listing__header-primary -->
+                            <p class="listing__price">@item.ListPrice</p>
+                        </div><!-- .listing__header -->
+                        <div class="listing__details">
+                            <ul class="listing__stats">
+                                <li><span class="listing__figure">@item.Bedrooms<sup>&plus;</sup></span> Beds</li>
+                                <li><span class="listing__figure">@item.Washrooms</span> Baths</li>
+                                <li><span class="listing__figure">1,250</span> sq.ft</li>
+                            </ul><!-- .listing__stats -->
+                            <a href="@Url.Action("GetPropertyDetail", "Property",new {PropertyType=Model.CurrentPropertyType,MLS=item.MLS.ToString() })" class="listing__btn">Details <span class="listing__btn-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                        </div><!-- .listing__details -->
+                    </div><!-- .listing-content -->
+                </div><!-- .col -->
+            </div><!-- .listing -->
+        </div><!-- .item-grid__container -->
+        @*</td>
+            </tr>*@
+
+    }
+</section>
+
+<section id="listGridsection" style="display:none;">
+    @{Html.RenderPartial("~/Views/WebPartial/_InnerGridListing.cshtml", Model);}
+    
+</section>
+<div id="Paging_Ul">
+    @{Html.RenderPartial("~/Views/WebPartial/_ListPaging.cshtml", Model);}
+
+
+</div>
+

@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Header -->
+<div class="h-30" ng-cloak ng-include="'/partial/loginheader'"></div>
+        
+@*<div class="color-line"></div>    
+<!-- Header -->
+<div id="header" ng-cloak ng-if="session.IsAuth" ng-include="'Dashboard/DashboardHeader'"></div>
+<!-- Navigation -->
+<aside id="menu" ng-cloak ng-if="session.IsAuth && session.IsAccountSetup" ng-include="'Dashboard/Navigation'"></aside>*@
+
+<div id="ui-view" ui-view></div>

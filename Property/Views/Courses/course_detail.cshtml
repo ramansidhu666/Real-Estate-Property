@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "pay_online";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="page-content">
+    <section>
+        <!-- Swiper-->
+        <div data-height="20%" data-loop="false" data-dragable="false" data-slide-effect="true" class="swiper-container swiper-slider">
+            <div class="swiper-wrapper">
+                <div data-slide-bg="/assets-web/images/slide-01-1920x810.jpg" style="background-position: 80% center" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <div class="range range-xs-center range-lg-left">
+                                <div class="cell-md-9 text-md-left cell-xs-10">
+                                    <div data-caption-animate="fadeInUp" data-caption-delay="100">
+                                        <h1 class="text-bold">NEET Courses</h1>
+                                        <div class="offset-sm-top-35">
+                                            <ul class="list-inline list-inline-lg list-inline-dashed p">
+                                                <li><a href="index.html">Course</a></li>
+                                                <li><a href="#">NEET Courses</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offset-top-70">
+        <div class="shell">
+
+            <h3 class="text-bold">NEET Courses</h3>
+            <div class="range  range-xs-center">
+                <div class="cell-sm-10 cell-lg-12 bordr-styl">
+                    <div data-type="horizontal" class="responsive-tabs responsive-tabs-classic horizontal">
+                        <ul data-group="tabs-group-default"  class="resp-tabs-list tabs-1 text-center tabs-group-default">
+                            <li>11th Appeard/Passed</li>
+                            <li >for 12th Passed</li>
+                            <li >for 10th Passed</li>
+                            <li >for 10th Appeared</li>
+                        </ul>
+                        <div data-group="tabs-group-default"  class="resp-tabs-container text-sm-left tabs-group-default">
+                            <div >
+                                @Html.Partial("~/Views/WebPartial/CourseDetail.cshtml")
+                            </div>
+                            <div >
+                               @Html.Partial("~/Views/WebPartial/CourseDetail.cshtml")
+                            </div>
+                            <div >
+                              @Html.Partial("~/Views/WebPartial/CourseDetail.cshtml")  
+                            </div>
+                            <div >
+                               @Html.Partial("~/Views/WebPartial/CourseDetail.cshtml") 
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content" style="background-color:white;">
+                                <div class="modal-header" style="background-color:#f36371;">
+                                    <h5 class="modal-title" id="exampleModalLabel">Fee Structure</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" style="color:black;">
+                                    @Html.Partial("~/Views/WebPartial/Course_fee_detail.cshtml") 
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-round btn-sm" data-dismiss="modal">Close</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+

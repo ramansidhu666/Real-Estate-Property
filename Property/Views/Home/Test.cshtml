@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+    Layout = null;
+}
+
+<h2>Test</h2>
+
+
+
+
+
+
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+<div>Content</div>
+
+
+<a href="#" id="loadMore">Load More</a>
+
+<p class="totop">
+    <a href="#top">Back to top</a>
+</p>
+<script src="~/assets-web/js/jquery-1.12.4.js"></script>
+<script>
+   
+
+    $(function () {
+        alert();
+        $("div").slice(0, 4).show();
+        $("#loadMore").on('click', function (e) {
+            e.preventDefault();
+            $("div:hidden").slice(0, 4).slideDown();
+            if ($("div:hidden").length == 0) {
+                $("#load").fadeOut('slow');
+            }
+            $('html,body').animate({
+                scrollTop: $(this).offset().top
+            }, 1500);
+        });
+    });
+
+    $('a[href=#top]').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+            $('.totop a').fadeIn();
+        } else {
+            $('.totop a').fadeOut();
+        }
+    });
+</script>

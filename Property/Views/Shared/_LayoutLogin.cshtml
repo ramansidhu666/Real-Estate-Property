@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="wide wow-animation smoothscroll scrollTo">
+<head>
+    <!-- Site Title-->
+    <title>Property Institute</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="keywords" content="best medical institute in chandigarh">
+    <meta name="date" content="Dec 26">
+    @*<link rel="icon" href="Propertyfav.ico" type="../Propertyimages/Propertyfav.ico">*@
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,700%7CMerriweather:400,300,300italic,400italic,700,700italic">
+    @Styles.Render("~/styles/web-themes/base/css")
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <!-- Page-->
+    <div class="page text-center">
+        <!-- Page Header-->
+        @Html.Partial("~/Views/WebPartial/WebLoginHeader.cshtml")
+
+        <!-- Page view wrapper -->
+        <div id="page-container">
+            @RenderBody()
+        </div>
+        
+        <!-- Corporate footer-->
+        @Html.Partial("~/Views/WebPartial/WebFooter.cshtml")
+    </div>
+    @Scripts.Render("~/bundles/assets/jquery")
+    
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

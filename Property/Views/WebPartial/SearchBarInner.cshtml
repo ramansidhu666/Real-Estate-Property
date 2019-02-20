@@ -1,0 +1,122 @@
+﻿
+@using (Html.BeginForm("SearchProperty", "Property", FormMethod.Post))
+{
+
+    <section class="widget main-listing__widget">
+       
+            <div class="main-listing__wrapper">
+                <label class="main-listing__form-title">Property Type</label>
+                <div class="main-listing__form-select">
+                    <input type="radio" name="CurrentPropertyType" checked="checked" id="propertyType1" class="main-listing__form-radio" value="Residential">
+                    <label for="propertyType1" class="main-listing__form-label">Residential</label>
+                    <span class="main-listing__form-desc"></span>
+                </div><!-- main-listing__form-select -->
+                <div class="main-listing__form-select">
+                    <input type="radio" name="CurrentPropertyType" id="propertyType2" class="main-listing__form-radio" value="Commercial">
+                    <label for="propertyType2" class="main-listing__form-label">Commercial</label>
+                    <span class="main-listing__form-desc"></span>
+                </div><!-- main-listing__form-select -->
+                <div class="main-listing__form-select">
+                    <input type="radio" name="CurrentPropertyType" id="propertyType3" class="main-listing__form-radio" value="Condo">
+                    <label for="propertyType3" class="main-listing__form-label">Condo</label>
+                    <span class="main-listing__form-desc"></span>
+                </div><!-- main-listing__form-select -->
+               
+            </div><!-- .main-listing__wrapper -->
+            <div class="main-listing__wrapper">
+                <label for="main-listing-keyword" class="main-listing__form-title">Keyword</label>
+                <input type="text" id="main-listing-keyword" name="MLSID_City_PostalCode" class="main-listing__form-field" placeholder="Enter keywords...">
+            </div><!-- .main-listing__wrapper -->
+            <div class="main-listing__wrapper">
+                <label for="listing-city" class="main-listing__form-title">Status</label>
+                <select name="SaleLease" id="listing-city" class="ht-field main-listing__form-field">
+                    <option value="0" selected>Any</option>
+                    <option value="Sale">Sale</option>
+                    <option value="Lease">Lease</option>
+                    
+                </select><!-- .main-listing__form-field -->
+            </div><!-- .main-listing__wrapper -->
+           
+            <div class="main-listing__wrapper">
+                <label for="listing-bedroom" class="main-listing__form-title">Bedrooms</label>
+                <select name="bedrooms" id="listing-bedroom" class="ht-field main-listing__form-field">
+                    <option value="0" selected>Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select><!-- .main-listing__form-field -->
+            </div><!-- .main-listing__wrapper -->
+            <div class="main-listing__wrapper">
+                <label for="listing-bathroom" class="main-listing__form-title">Bathrooms</label>
+                <select name="BathRooms" id="listing-bathroom" class="ht-field main-listing__form-field">
+                    <option value="0" selected>Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select><!-- .main-listing__form-field -->
+            </div><!-- .main-listing__wrapper -->
+            <div class="main-listing__wrapper">
+                <label for="min-area" class="main-listing__form-title">Price<sup></sup>)</label>
+                <div class="main-listing__form-container">
+                    <select name="MinPrice" id="min-area" class="ht-field main-listing__form-field">
+                        <option value="0" selected>min</option>
+                        <option value="1000">1000</option>
+                        <option value="5000">5000</option>
+                        <option value="10000">10000</option>
+                        <option value="20000">20000</option>
+                    </select><!-- .main-listing__form-field -->
+                    <select name="MaxPrice" id="max-area" class="ht-field main-listing__form-field">
+                        <option value="0" selected>max</option>
+                        <option value="1000">1000</option>
+                        <option value="5000">5000</option>
+                        <option value="10000">10000</option>
+                        <option value="20000">20000</option>
+                    </select><!-- .main-listing__form-field -->
+                </div><!-- .main-listing__form-container -->
+            </div><!-- .main-listing__wrapper -->
+            <div class="main-listing__wrapper">
+                <label for="listing-city" class="main-listing__form-title">Home Type</label>
+                <select name="PropertyType" id="listing-city" class="ht-field main-listing__form-field">
+                    <option value="0">Any</option>
+                    <option value="Detached">Detached</option>
+                    <option value="Att/Row/Twnhouse">Att/Row/Twnhouse</option>
+                    <option value="Semi-Detached">Semi-Detached</option>
+                    <option value="Vacant Land">Vacant Land</option>
+                    <option value="Link">Link</option>
+                    <option value="Duplex">Duplex</option>
+                    <option value="Farm">Farm</option>
+                    <option value="Multiplex">Multiplex</option>
+                    <option value="Cottage">Cottage</option>
+                    <option value="Triplex">Triplex</option>
+                    <option value="Rural Resid">Rural Resid</option>
+                    <option value="Store W/Apt/Offc">Store W/Apt/Offc</option>
+                    <option value="Lower Level">Lower Level</option>
+                    <option value="Upper Level">Upper Level</option>
+                    <option value="Other">Other</option>
+                    <option value="Mobile/Trailer">Mobile/Trailer</option>
+                    <option value="Fourplex">Fourplex</option>
+                    <option value="Room">Room</option>
+                    <option value="Shared Room">Shared Room</option>
+
+                </select><!-- .main-listing__form-field -->
+            </div><!-- .main-listing__wrapper -->
+          
+            <button class="main-listing__form-reset" type="submit">Search</button>
+      
+    </section><!-- .widget -->
+
+}

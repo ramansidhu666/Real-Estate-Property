@@ -1,0 +1,417 @@
+﻿@model  Property.Entity.MainModel
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_LayoutFrontEnd.cshtml";
+}
+
+<style>
+    #myList li.myclass {
+        display: none;
+    }
+
+    .hdg_txt_limit {
+        line-height: 1.4em;
+        height: 3em;
+        overflow: hidden;
+    }
+
+    .p_txt_limit {
+        line-height: 1.4em;
+        height: 3em;
+        overflow: hidden;
+    }
+</style>
+
+
+<section class="main-slider">
+    <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="realand-slider-1" data-source="gallery" style="margin:0px auto;background:rgba(0,0,0,0.5);padding:0px;margin-top:0px;margin-bottom:0px;">
+        <!-- START REVOLUTION SLIDER 5.4.6 fullwidth mode -->
+        <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="~/images/revslider/main_slider_1-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="~/images/revslider/main_slider_1.jpg" alt="" title="main_slider_1" width="1920" height="820" data-lazyload="~/images/revslider/main_slider_1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-1-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-68','-68','-60','-40']" data-fontsize="['18','18','16','14']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":300,"speed":1500,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 18px; line-height: 22px; font-weight: 400; color: #f3f3f3; letter-spacing: 0px;font-family:Roboto;">THE BEST REAL ESTATE DEALS </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-1-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-fontsize="['60','60','40','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":300,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 22px; font-weight: 900; color: #ffffff; letter-spacing: 0px;font-family:Raleway;">Discover Your Perfect Home </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <a href="https://www.youtube.com/watch?v=Q0CbN8sfihY" data-lity class="tp-caption   tp-resizeme" target="_self" id="slide-1-layer-7" data-x="['center','center','center','center']" data-hoffset="['6','6','6','6']" data-y="['top','top','top','top']" data-voffset="['480','380','300','230']" data-fontsize="['60','60','36','36']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-actions='' data-responsive_offset="on" data-frames='[{"delay":300,"speed":1500,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 60px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;text-decoration: none;"><i class="fa fa-play-circle-o"></i> </a>
+                </li>
+                <!-- SLIDE  -->
+                <li data-index="rs-12" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="~/images/revslider/main_slider_1-2-100x50.jpeg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="~/images/revslider/main_slider_1-2.jpeg" alt="" title="Main Slider 1-2" width="1920" height="820" data-lazyload="~/images/revslider/main_slider_1-2.jpeg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-12-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-68','-68','-60','-40']" data-fontsize="['18','18','16','14']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":300,"speed":1500,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 18px; line-height: 22px; font-weight: 400; color: #f3f3f3; letter-spacing: 0px;font-family:Roboto;">THE BEST REAL ESTATE DEALS </div>
+
+                    <!-- LAYER NR. 5 -->
+                    <div class="tp-caption   tp-resizeme" id="slide-12-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-fontsize="['60','60','40','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":300,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 22px; font-weight: 900; color: #ffffff; letter-spacing: 0px;font-family:Raleway;">Discover Your Perfect Home </div>
+
+                    <!-- LAYER NR. 6 -->
+                    <a href="https://www.youtube.com/watch?v=Q0CbN8sfihY" data-lity class="tp-caption   tp-resizeme" target="_self" id="slide-12-layer-7" data-x="['center','center','center','center']" data-hoffset="['6','6','6','6']" data-y="['top','top','top','top']" data-voffset="['480','380','300','230']" data-fontsize="['60','60','36','36']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-actions='' data-responsive_offset="on" data-frames='[{"delay":300,"speed":1500,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 60px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;text-decoration: none;"><i class="fa fa-play-circle-o"></i> </a>
+                </li>
+            </ul>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+        </div>
+    </div>
+    <!-- END REVOLUTION SLIDER -->
+    <section class="main-search main-search--absolute">
+        <div class="container">
+            <div class="main-search__container">
+                @{Html.RenderPartial("~/Views/WebPartial/SearchBar.cshtml");}
+
+                <section class="listing-sort">
+                    <div class="listing-sort__inner">
+                        <ul class="listing-sort__list">
+                            <li class="listing-sort__item"><a href="#" class="listing-sort__link"><i class="fa fa-th-list" aria-hidden="true" class="listing-sort__icon"></i></a></li>
+                            <li class="listing-sort__item"><a href="#" class="listing-sort__link"><i class="fa fa-th" aria-hidden="true" class="listing-sort__icon"></i></a></li>
+                            <li class="listing-sort__item"><a href="#" class="listing-sort__link listing-sort__link--active"><i class="fa fa-th-large" aria-hidden="true" class="listing-sort__icon"></i></a></li>
+                        </ul>
+
+                        <span class="listing-sort__result">1-9 of 25 results</span>
+
+                        <p class="listing-sort__sort">
+                            <label for="sort-type" class="listing-sort__label"><i class="fa fa-sort-amount-asc" aria-hidden="true"></i> Sort by </label>
+                            <select name="sort-type" id="sort-type" class="ht-field listing-sort__field">
+                                <option value="default">Default</option>
+                                <option value="low-price">Price (Low to High)</option>
+                                <option value="high-price">Price (High to Low)</option>
+                                <option value="featured">Featured</option>
+                            </select>
+                        </p>
+                    </div><!-- .listing-sort__inner -->
+                </section><!-- .listing-sort -->
+            </div><!-- .main-search__container -->
+        </div><!-- .container -->
+    </section><!-- .main-search -->
+</section><!-- .main-slider -->
+<section class="item-grid">
+    <div class="container">
+        @{Html.RenderPartial("~/Views/WebPartial/_HomeListingPartialView.cshtml", Model);}
+        <div class="item-grid--centered">
+            <a href="#" id="loadMore" class="item-grid__load-more">Load More</a>
+        </div>
+    </div><!-- .container -->
+</section><!-- .item-grid-2 -->
+<section class="new-listing">
+    <div class="container">
+        <div class="new-listing__header">
+            <h2 class="section__title section__title--b-margin">Search Listing By Region</h2>
+            <a href="#" class="new-listing__all">View all region <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="new-listing__container">
+            <div class="new-listing--col-md-6">
+                <div class="new-listing__block">
+                    <a href="#">
+                        <div class="new-listing__bg new-listing__bg--new-york-1 new-listing--large"></div><!-- .new-listing__child -->
+                        <div class="new-listing__content">
+                            <h3 class="new-listing__title">New York</h3>
+                            <p class="new-listing__desc">55 Listings</p>
+                        </div><!-- .new-listing__content -->
+                    </a>
+                </div><!-- .new-listing__block -->
+            </div><!-- .col -->
+            <div class="new-listing--col-md-6">
+                <div class="new-listing__block">
+                    <a href="#">
+                        <div class="new-listing__bg new-listing__bg--ohio-1 new-listing--wide"></div><!-- .new-listing__bg -->
+                        <div class="new-listing__content">
+                            <h3 class="new-listing__title">Ohio</h3>
+                            <p class="new-listing__desc">13 Listings</p>
+                        </div><!-- .new-listing__content -->
+                    </a>
+                </div><!-- .new-listing__block -->
+                <div class="new-listing__parent">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="new-listing__block">
+                                <a href="#">
+                                    <div class="new-listing__bg new-listing__bg--san-diego-1 new-listing--small"></div><!-- .new-listing__bg -->
+                                    <div class="new-listing__content">
+                                        <h3 class="new-listing__title">San Diego</h3>
+                                        <p class="new-listing__desc">35 Listings</p>
+                                    </div><!-- .new-listing__content -->
+                                </a>
+                            </div><!-- .new-listing__block -->
+                        </div><!-- .col-md-6 -->
+                        <div class="col-md-6">
+                            <div class="new-listing__block">
+                                <a href="#">
+                                    <div class="new-listing__bg new-listing__bg--new-jersey-1 new-listing--small"></div><!-- .new-listing__bg -->
+                                    <div class="new-listing__content">
+                                        <h3 class="new-listing__title">New Jersey</h3>
+                                        <p class="new-listing__desc">20 Listings</p>
+                                    </div><!-- .new-listing__content -->
+                                </a>
+                            </div><!-- .new-listing__block -->
+                        </div><!-- .col-md-6 -->
+                    </div><!-- .row -->
+                </div><!-- .new-listing__parent -->
+            </div><!-- .col -->
+        </div><!-- .new-listing__container -->
+    </div><!-- .container -->
+</section><!-- .new-listing -->
+<section class="features">
+    <div class="features__overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="feature">
+                        <img src="../images/icon_map.png" alt="Map" class="feature__icon">
+                        <h3 class="feature__title">Freshest Market Info</h3>
+                        <p class="feature__desc">
+                            Our extensive database of listings and market info provide the most accurate.
+                        </p>
+                    </div><!-- .feature -->
+                </div><!-- .col -->
+                <div class="col-sm-4">
+                    <div class="feature">
+                        <img src="../images/icon_search.png" alt="Search" class="feature__icon">
+                        <h3 class="feature__title">Top Local Agents</h3>
+                        <p class="feature__desc">
+                            Our extensive database of listings and market info provide the most accurate.
+                        </p>
+                    </div><!-- .feature -->
+                </div><!-- .col -->
+                <div class="col-sm-4">
+                    <div class="feature">
+                        <img src="../images/icon_negotiation.png" alt="Negotiation" class="feature__icon">
+                        <h3 class="feature__title">Peace of Mind</h3>
+                        <p class="feature__desc">
+                            Our extensive database of listings and market info provide the most accurate.
+                        </p>
+                    </div><!-- .feature -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .features__overlay -->
+</section><!-- .features -->
+<section class="famous-agents">
+    <div class="container">
+        <div class="famous-agents__title">
+            <h2 class="section__title">Featured Listing</h2>
+            <ul class="slick__navigation famous-agents__navigation">
+                <li class="slick-prev famous-agents__navigation-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></li>
+                <li class="slick-next famous-agents__navigation-next"><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            </ul>
+        </div><!-- .famous-agents__title -->
+        <div class="famous-agents__wrapper">
+@foreach (var item in Model.FeaturedPropertiesModel)
+{
+            <div class="famous-agents__single">
+                <div class="famous-agents__header">
+                    <img src="@item.pImage" alt="Michael Drucker" class="img_height">
+                    <ul class="famous-agents__social">
+                        <li>
+                            <a href="@Url.Action("GetPropertyDetail", "Property",new {PropertyType="Residential",MLS=item.MLS.ToString() })">
+                                <i class="Detail" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                       
+                    </ul><!-- .famous_agents__social -->
+                </div><!-- .famous-agents__header -->
+                <div class="famous-agents__content">
+                    <h4 class="famous-agents__name"><a href="#">@item.Address</a></h4>
+                    <span class="famous-agents__position">@item.Community&reg;</span>
+                   
+                </div><!-- .famous-agents__content -->
+            </div><!-- .famous-agents__single -->
+}
+        </div><!-- .famous-agents__wrapper -->
+    </div><!-- .container -->
+</section><!-- .famous_agents -->
+ 
+<section class="testimonial">
+    <div class="container">
+        <div class="testimonial__container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial__video">
+                        <img src="../images/uploads/testimonial_1.jpg" alt="Testimonial" class="testimonial__video-img">
+                        <a href="https://www.youtube.com/watch?v=Q0CbN8sfihY" data-lity>
+                            <i class="fa fa-play-circle-o play-icon" aria-hidden="true"></i>
+                        </a>
+                        <div class="testimonial__overlay"></div><!-- .testimonial__overlay -->
+                    </div><!-- .testimonial__video -->
+                </div><!-- .col -->
+                <div class="col-md-6">
+                    <div class="testimonial__content">
+                        <h2 class="section__title">2000&plus; Happy Clients</h2>
+                        <p class="testimonial__desc">Realand has recently sold our house and home. We have found that it was one of the best investments we could have made, as nothing was a problem to her, and it certainly took the worry of marketing and selling off our mind, as ReaLand had everything under control.</p>
+                        <div class="testimonial__customer">
+                            <img src="../images/uploads/testimonial_avatar.png" alt="Karty and Will">
+                            <div class="testimonial__customer-profile">
+                                <h4 class="testimonial__customer-name">Karty & Will</h4>
+                                <p class="testimonial__customer-company">Sunderland, Haintheme</p>
+                                <img src="../images/rating.png" alt="Five Stars Rating">
+                            </div><!-- .testimonial__customer-profile -->
+                        </div><!-- .testimonial__customer -->
+                    </div><!-- .testimonial__content -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .testimonial__container -->
+    </div><!-- .container -->
+</section><!-- .testimonial -->
+
+<section class="newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 newsletter__content">
+                <img src="../images/icon_mail.png" alt="Newsletter" class="newsletter__icon">
+                <div class="newsletter__text-content">
+                    <h2 class="newsletter__title">Newsletter</h2>
+                    <p class="newsletter__desc">Sign up for our newsletter to get up-to-date from us</p>
+                </div>
+            </div><!-- .col -->
+            <div class="col-md-6">
+                <form action="/" class="newsletter__form">
+                    <input type="email" class="newsletter__field" placeholder="Enter Your E-mail">
+                    <input type="submit" value="Subscribe" class="newsletter__submit">
+                </form>
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+</section><!-- .newsletter -->
+<script src="~/assets-web/js/jquery-1.12.4.js"></script>
+
+<script>
+    var properties = [];
+    var TotalCount = 0;
+    var LocalCount = 0;
+    var failedCount = 0;
+    var statuscount = 0;
+    $(document).ready(function () {
+        alert('pageload');
+        size_li = $("#myList li.myclass").size();
+        x = 4;
+        $('#myList li.myclass:lt(' + x + ')').show();
+        $('#loadMore').click(function () {
+            x = (x + 4 <= size_li) ? x + 4 : size_li;
+            $('#myList li.myclass:lt(' + x + ')').show();
+        });
+        $('#showLess').click(function () {
+            x = (x - 6 < 0) ? 6 : x - 6;
+            $('#myList li.myclass').not(':lt(' + x + ')').hide();
+
+        });
+        $.ajax({
+            type: "POST",
+            url: "/Home/GetAddressList",
+            data: JSON.stringify(),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                alert('GetAddressList');
+
+             TotalCount = data.length;
+                
+                //debugger;
+                statuscount = 0;
+                debugger;
+                var time = 1000;
+
+              
+
+                $.each(data, function (key, value) {
+                   
+                    setTimeout(function () { GetLocation(value); }, time)
+                    time += 1000;
+                       
+                        statuscount++;
+                  
+                   // debugger;
+                    //else
+                    //{
+
+                    //    return false;
+                    //}
+
+                   
+                });
+                debugger;
+               
+               
+
+            }
+        });
+    });
+
+
+
+    function PushListToController(data) {
+       // alert(data.length);
+        alert('PushListToController');
+        $.ajax({
+            type: "POST",
+            url: "/Home/SaveLatLong",
+            data: JSON.stringify(data),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                debugger;
+                alert(data);
+            }
+        });
+    }
+
+    function GetLocation(value) {
+        
+        debugger;
+        var geocoder = new google.maps.Geocoder();
+        var address = value.Address + ',' + value.Area + ',' + value.Municipality;
+        //debugger;
+        geocoder.geocode({ 'address': address }, function (results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+                 //debugger;
+                var latitude = results[0].geometry.location.lat();
+                var longitude = results[0].geometry.location.lng();
+               // alert("Latitude: " + latitude + "\nLongitude: " + longitude);
+                debugger;
+                properties.push({ "Latitude": latitude, "Longitude": longitude, "MLSID": value.MLS, "Address": value.Address });
+              //  debugger;
+                LocalCount++;
+                //if (properties.length===100)
+                //{
+                //    alert('length 100')
+                //}
+                
+              //  debugger;
+              //  alert(properties.length);
+                //alert('LocalCount-' + LocalCount);
+                //alert('TotalCount-' + TotalCount);
+                //debugger;
+               
+                if (TotalCount === LocalCount)
+                {
+                    alert('going to count');
+                    if (properties.length > 0) {
+                        alert('before pushcontroller');
+                        alert('failed count - ' + failedCount);
+                        alert('Genrated Count :-' + properties.length)
+                        PushListToController(properties);
+                    }
+                   
+                }
+               // debugger;
+            } else {
+                debugger;
+               // alert("Request failed.");
+                LocalCount++;
+                failedCount++;
+               // alert(TotalCount);
+
+            }
+        });
+       
+    };
+</script>
+
+
+
+

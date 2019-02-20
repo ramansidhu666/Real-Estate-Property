@@ -1,0 +1,109 @@
+﻿@{
+    Layout = null;
+}
+<!-- begin login -->
+<div class="back-link">
+    <a ui-sref="login" class="btn btn-primary">Back to login</a>
+</div>
+<div class="register-container" ng-controller="RegisterController">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center m-b-md"> 
+                <h3>Registration</h3>
+                <small>Get Immediate access to your Property acccount and start immediately with the APP!</small>
+            </div>
+            <div class="hpanel">
+                <div class="panel-body">                
+                    <form name="registrationForm">
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label>First Name <span class="color-red">*</span></label>
+                                <input type="text" ng-model="registrationModel.FirstName" ng-maxlength="25" maxlength="25" ng-required="true" ng-pattern="/^[a-zA-Z]*$/" class="form-control" name="firstName" placeholder="First Name">
+                                <div class="m-t-xs" ng-show="registrationForm.firstName.$touched && registrationForm.firstName.$invalid">
+                                    <span class="text-danger" ng-show="registrationForm.firstName.$error.required">
+                                        <i class="fa fa-exclamation-triangle"></i> Please enter a valid First Name.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.firstName.$error.maxlength">
+                                        <i class="fa fa-exclamation-triangle"></i> Maximum length is 25.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.firstName.$error.pattern">
+                                        <i class="fa fa-exclamation-triangle"></i> Only alphabets characters are allowed.
+                                    </span>         
+                                </div>  
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Last Name <span class="color-red">*</span></label>
+                                <input type="text" ng-model="registrationModel.LastName" ng-maxlength="25" maxlength="25" ng-required="true" ng-pattern="/^[a-zA-Z]*$/" class="form-control" name="lastName" placeholder="Last Name">
+                                <div class="m-t-xs" ng-show="registrationForm.lastName.$touched && registrationForm.lastName.$invalid">
+                                    <span class="text-danger" ng-show="registrationForm.lastName.$error.required">
+                                        <i class="fa fa-exclamation-triangle"></i> Please enter a valid Last Name.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.lastName.$error.maxlength">
+                                        <i class="fa fa-exclamation-triangle"></i> Maximum length is 25.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.lastName.$error.pattern">
+                                        <i class="fa fa-exclamation-triangle"></i> Only alphabets characters are allowed.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label>Username <span class="color-red">*</span></label>
+                                <input type="email" ng-model="registrationModel.Email" ng-maxlength="50" maxlength="50" ng-required="true" class="form-control" name="userName" placeholder="example@gmail.com">
+                                <div class="m-t-xs" ng-show="registrationForm.userName.$touched && registrationForm.userName.$invalid">
+                                    <span class="text-danger" ng-show="registrationForm.userName.$error.required">
+                                        <i class="fa fa-exclamation-triangle"></i> Please enter a valid Username.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.userName.$error.maxlength">
+                                        <i class="fa fa-exclamation-triangle"></i> Maximum length is 50.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.userName.$error.email">
+                                        <i class="fa fa-exclamation-triangle"></i> Please enter a valid email.
+                                    </span>
+                                </div>      
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Password <span class="color-red">*</span> <span tooltip-placement="bottom" uib-tooltip="Password must be at least 8 characters and contain 1 uppercase and 1 number."><i class="fa fa-info-circle"></i></span></label>
+                                <input type="password" ng-model="registrationModel.Password" ng-minlength="8" ng-maxlength="25" maxlength="25" ng-pattern="/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,25}/" ng-required="true" class="form-control" name="password" placeholder="******">
+                                
+                                <div class="m-t-xs" ng-show="registrationForm.password.$touched && registrationForm.password.$invalid">
+                                    <span class="text-danger" ng-show="registrationForm.password.$error.required">
+                                        <i class="fa fa-exclamation-triangle"></i> Please enter a valid Password.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.password.$error.minlength">
+                                        <i class="fa fa-exclamation-triangle"></i> Minimum length is 8.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.password.$error.maxlength">
+                                        <i class="fa fa-exclamation-triangle"></i> Maximum length is 50.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.password.$error.pattern">
+                                        <i class="fa fa-exclamation-triangle"></i> Password must be at least 8 characters and contain 1 uppercase and 1 number.
+                                    </span> 
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Repeat Password <span class="color-red">*</span></label>
+                                <input type="password" ng-model="registrationModel.ConfirmPassword" valid-password-compare="registrationModel.Password" ng-keyup="doBlur($event)" ng-minlength="8" ng-maxlength="25" ng-required="true" class="form-control" name="confirmPassword" placeholder="******">
+                                <div class="m-t-xs" ng-show="registrationForm.confirmPassword.$touched && registrationForm.confirmPassword.$invalid">
+                                    <span class="text-danger" ng-show="registrationForm.confirmPassword.$error.required">
+                                        <i class="fa fa-exclamation-triangle"></i> Please enter a valid Repeat Password.
+                                    </span>
+                                    <span class="text-danger" ng-show="registrationForm.confirmPassword.$error.noMatch">
+                                        <i class="fa fa-exclamation-triangle"></i> Passwords do not match.
+                                    </span>
+                                </div>
+                            </div>      
+                        </div>
+                        <div class="text-center">
+                            <button ladda="laddaLoading" data-style="zoom-in" class="ladda-button ladda-button-demo btn btn-success" ng-click="clickRegister()">Register</button>
+                            <a class="btn btn-default" name="btnCancel" href="#/login">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->             
+    <div ng-include="'/partial/loginfooter'"></div>
+</div>
+
+

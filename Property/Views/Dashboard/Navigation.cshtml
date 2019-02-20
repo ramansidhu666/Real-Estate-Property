@@ -1,0 +1,43 @@
+﻿@{
+    Layout = null;
+}
+<div id="navigation" ng-show="session.IsAuth">
+    <div class="profile-picture">
+        <a ui-sref="users" ng-show="session.IsAuth">
+            <img ng-src="{{session.PhotoPath}}" class="img-circle m-b profile-image" alt="logo">
+        </a>                      
+        <div class="stats-label text-color">
+            <span class="font-extra-bold font-uppercase">{{session.FullUserName}}</span>
+
+            <div class="dropdown" uib-dropdown >
+                <a uib-dropdown-toggle>
+                    <small class="text-muted">Settings <b class="caret"></b></small>
+                </a>
+                <ul class="animated flipInX m-t-xs" uib-dropdown-menu>
+                    <li ng-show="session.IsAuth"><a ui-sref="dashboard">Dashboard</a></li>
+                    <li ng-show="session.IsAuth" class="divider"></li>
+                    <li><a ui-sref="login">Logout</a></li>
+                </ul>                                                                                       
+            </div>  
+            <div ng-show="session.IsAuth">
+                <h4 class="font-extra-bold m-b-xs">
+                    Owner of app
+                </h4>
+            </div>
+            <div ng-show="session.IsAuth">
+                <h4 class="font-extra-bold m-b-xs">
+                    User Type : {{session.UserType}}
+                </h4>
+            </div>
+        </div>      
+    </div>  
+    <ul side-navigation class="nav" id="side-menu" ng-show="session.IsAuth">
+        <li ui-sref-active="active">
+            <a ui-sref="dashboard"> <span class="nav-label">Dashboard</span></a>
+        </li>
+        <li ui-sref-active="active">
+            <a ui-sref="product"> <span class="nav-label">Product</span> </a>
+        </li>     
+    </ul>           
+</div>
+                                                                                                                                                   

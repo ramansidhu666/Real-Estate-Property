@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Core\bin\Debug\RealEstate.Core.dll
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Core\bin\Debug\RealEstate.Core.pdb
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Core\bin\Debug\GoogleMaps.LocationServices.dll
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Core\obj\Debug\RealEstate.Core.dll
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Core\obj\Debug\RealEstate.Core.pdb
+C:\Users\Admin\Desktop\Property Projects\New Property Project by Maninder\Real Estate Property\RealEstate.Core\obj\Debug\RealEstate.Core.csprojResolveAssemblyReference.cache
+C:\sites\Real Estate Property\RealEstate.Core\bin\Debug\RealEstate.Core.dll
+C:\sites\Real Estate Property\RealEstate.Core\bin\Debug\RealEstate.Core.pdb
+C:\sites\Real Estate Property\RealEstate.Core\bin\Debug\GoogleMaps.LocationServices.dll
+C:\sites\Real Estate Property\RealEstate.Core\bin\Debug\Newtonsoft.Json.dll
+C:\sites\Real Estate Property\RealEstate.Core\bin\Debug\Newtonsoft.Json.xml
+C:\sites\Real Estate Property\RealEstate.Core\obj\Debug\RealEstate.Core.dll
+C:\sites\Real Estate Property\RealEstate.Core\obj\Debug\RealEstate.Core.pdb

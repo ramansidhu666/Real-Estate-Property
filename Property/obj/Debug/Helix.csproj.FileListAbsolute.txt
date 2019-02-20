@@ -1,0 +1,390 @@
+H:\New Projects\HelixProject\Helix\obj\Debug\Helix.csprojResolveAssemblyReference.cache
+H:\New Projects\HelixProject\Helix\bin\Helix.dll.config
+H:\New Projects\HelixProject\Helix\bin\Helix.dll
+H:\New Projects\HelixProject\Helix\bin\Helix.pdb
+H:\New Projects\HelixProject\Helix\bin\ABrain.AmazonMWS.dll
+H:\New Projects\HelixProject\Helix\bin\Antlr3.Runtime.dll
+H:\New Projects\HelixProject\Helix\bin\AutoMapper.dll
+H:\New Projects\HelixProject\Helix\bin\AutoMapper.Net4.dll
+H:\New Projects\HelixProject\Helix\bin\Common.Logging.Core.dll
+H:\New Projects\HelixProject\Helix\bin\Common.Logging.dll
+H:\New Projects\HelixProject\Helix\bin\Dapper.dll
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.AspNet.dll
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.Core.dll
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.Consumer.dll
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.dll
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.dll
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+H:\New Projects\HelixProject\Helix\bin\FluentValidation.dll
+H:\New Projects\HelixProject\Helix\bin\Helix.Core.dll
+H:\New Projects\HelixProject\Helix\bin\Helix.Entity.dll
+H:\New Projects\HelixProject\Helix\bin\Helix.Service.dll
+H:\New Projects\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Core.dll
+H:\New Projects\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.dll
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.Security.Cookies.dll
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.Security.dll
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.Security.OAuth.dll
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Web.Infrastructure.dll
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Web.WebPages.OAuth.dll
+H:\New Projects\HelixProject\Helix\bin\Newtonsoft.Json.dll
+H:\New Projects\HelixProject\Helix\bin\Ninject.dll
+H:\New Projects\HelixProject\Helix\bin\Ninject.Web.Common.dll
+H:\New Projects\HelixProject\Helix\bin\Ninject.Web.Mvc.dll
+H:\New Projects\HelixProject\Helix\bin\Ninject.WebApi.DependencyResolver.dll
+H:\New Projects\HelixProject\Helix\bin\NLog.dll
+H:\New Projects\HelixProject\Helix\bin\Owin.dll
+H:\New Projects\HelixProject\Helix\bin\Quartz.dll
+H:\New Projects\HelixProject\Helix\bin\RestSharp.dll
+H:\New Projects\HelixProject\Helix\bin\StructureMap.dll
+H:\New Projects\HelixProject\Helix\bin\System.Net.Http.Formatting.dll
+H:\New Projects\HelixProject\Helix\bin\System.Web.Helpers.dll
+H:\New Projects\HelixProject\Helix\bin\System.Web.Http.dll
+H:\New Projects\HelixProject\Helix\bin\System.Web.Http.WebHost.dll
+H:\New Projects\HelixProject\Helix\bin\System.Web.Mvc.dll
+H:\New Projects\HelixProject\Helix\bin\System.Web.Optimization.dll
+H:\New Projects\HelixProject\Helix\bin\System.Web.Razor.dll
+H:\New Projects\HelixProject\Helix\bin\System.Web.WebPages.Deployment.dll
+H:\New Projects\HelixProject\Helix\bin\System.Web.WebPages.dll
+H:\New Projects\HelixProject\Helix\bin\System.Web.WebPages.Razor.dll
+H:\New Projects\HelixProject\Helix\bin\Twilio.Api.dll
+H:\New Projects\HelixProject\Helix\bin\Twilio.Mvc.dll
+H:\New Projects\HelixProject\Helix\bin\Twilio.Twiml.dll
+H:\New Projects\HelixProject\Helix\bin\WebActivatorEx.dll
+H:\New Projects\HelixProject\Helix\bin\WebGrease.dll
+H:\New Projects\HelixProject\Helix\bin\WebMatrix.Data.dll
+H:\New Projects\HelixProject\Helix\bin\WebMatrix.WebData.dll
+H:\New Projects\HelixProject\Helix\bin\DocumentFormat.OpenXml.dll
+H:\New Projects\HelixProject\Helix\bin\GoogleMaps.LocationServices.dll
+H:\New Projects\HelixProject\Helix\bin\Org.Mentalis.Security.Cryptography.dll
+H:\New Projects\HelixProject\Helix\bin\Mono.Math.dll
+H:\New Projects\HelixProject\Helix\bin\Helix.Core.pdb
+H:\New Projects\HelixProject\Helix\bin\Helix.Entity.pdb
+H:\New Projects\HelixProject\Helix\bin\Helix.Service.pdb
+H:\New Projects\HelixProject\Helix\bin\Antlr3.Runtime.pdb
+H:\New Projects\HelixProject\Helix\bin\AutoMapper.xml
+H:\New Projects\HelixProject\Helix\bin\Common.Logging.pdb
+H:\New Projects\HelixProject\Helix\bin\Common.Logging.xml
+H:\New Projects\HelixProject\Helix\bin\Common.Logging.Core.pdb
+H:\New Projects\HelixProject\Helix\bin\Common.Logging.Core.xml
+H:\New Projects\HelixProject\Helix\bin\Dapper.pdb
+H:\New Projects\HelixProject\Helix\bin\Dapper.xml
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.AspNet.xml
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.Core.xml
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.xml
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.Consumer.xml
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.xml
+H:\New Projects\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+H:\New Projects\HelixProject\Helix\bin\FluentValidation.pdb
+H:\New Projects\HelixProject\Helix\bin\FluentValidation.xml
+H:\New Projects\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Core.xml
+H:\New Projects\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.xml
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.Security.xml
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.Security.Cookies.xml
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Owin.Security.OAuth.xml
+H:\New Projects\HelixProject\Helix\bin\Microsoft.Web.WebPages.OAuth.xml
+H:\New Projects\HelixProject\Helix\bin\Newtonsoft.Json.xml
+H:\New Projects\HelixProject\Helix\bin\Ninject.xml
+H:\New Projects\HelixProject\Helix\bin\Ninject.Web.Common.xml
+H:\New Projects\HelixProject\Helix\bin\Ninject.Web.Mvc.xml
+H:\New Projects\HelixProject\Helix\bin\NLog.xml
+H:\New Projects\HelixProject\Helix\bin\Quartz.pdb
+H:\New Projects\HelixProject\Helix\bin\Quartz.xml
+H:\New Projects\HelixProject\Helix\bin\RestSharp.xml
+H:\New Projects\HelixProject\Helix\bin\StructureMap.pdb
+H:\New Projects\HelixProject\Helix\bin\StructureMap.xml
+H:\New Projects\HelixProject\Helix\bin\System.Web.Helpers.xml
+H:\New Projects\HelixProject\Helix\bin\System.Web.Mvc.xml
+H:\New Projects\HelixProject\Helix\bin\System.Web.Optimization.xml
+H:\New Projects\HelixProject\Helix\bin\System.Web.Razor.xml
+H:\New Projects\HelixProject\Helix\bin\System.Web.WebPages.xml
+H:\New Projects\HelixProject\Helix\bin\System.Web.WebPages.Deployment.xml
+H:\New Projects\HelixProject\Helix\bin\System.Web.WebPages.Razor.xml
+H:\New Projects\HelixProject\Helix\bin\System.Net.Http.Formatting.xml
+H:\New Projects\HelixProject\Helix\bin\System.Web.Http.xml
+H:\New Projects\HelixProject\Helix\bin\System.Web.Http.WebHost.xml
+H:\New Projects\HelixProject\Helix\bin\Twilio.Api.pdb
+H:\New Projects\HelixProject\Helix\bin\Twilio.Api.xml
+H:\New Projects\HelixProject\Helix\bin\Twilio.Mvc.pdb
+H:\New Projects\HelixProject\Helix\bin\Twilio.Mvc.xml
+H:\New Projects\HelixProject\Helix\bin\Twilio.Twiml.pdb
+H:\New Projects\HelixProject\Helix\bin\Twilio.Twiml.xml
+H:\New Projects\HelixProject\Helix\bin\WebMatrix.Data.xml
+H:\New Projects\HelixProject\Helix\bin\WebMatrix.WebData.xml
+H:\New Projects\HelixProject\Helix\bin\Org.Mentalis.Security.Cryptography.xml
+H:\New Projects\HelixProject\Helix\bin\Mono.Math.xml
+H:\New Projects\HelixProject\Helix\bin\de\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\bin\es\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\bin\fr\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\bin\it\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\bin\nl\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\bin\pl\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\bin\pt\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\bin\ru\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\bin\sv\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\bin\tr\FluentValidation.resources.dll
+H:\New Projects\HelixProject\Helix\obj\Debug\Helix.dll
+H:\New Projects\HelixProject\Helix\obj\Debug\Helix.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\AutoMapper.Net4.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Helix.dll.config
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Helix.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Helix.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\ABrain.AmazonMWS.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Antlr3.Runtime.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\AutoMapper.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Common.Logging.Core.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Common.Logging.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Dapper.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.Core.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\FluentValidation.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Helix.Core.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Helix.Entity.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Helix.Service.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Ninject.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Ninject.Web.Common.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Ninject.Web.Mvc.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Ninject.WebApi.DependencyResolver.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\NLog.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Owin.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Quartz.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\RestSharp.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\StructureMap.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Http.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Optimization.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.WebPages.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Twilio.Api.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Twilio.Mvc.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Twilio.Twiml.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\WebActivatorEx.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\WebGrease.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\WebMatrix.Data.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\WebMatrix.WebData.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DocumentFormat.OpenXml.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\GoogleMaps.LocationServices.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Mono.Math.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Helix.Core.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Helix.Entity.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Helix.Service.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Antlr3.Runtime.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\AutoMapper.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Common.Logging.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Common.Logging.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Common.Logging.Core.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Common.Logging.Core.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Dapper.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Dapper.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.Core.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\FluentValidation.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\FluentValidation.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Ninject.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Ninject.Web.Common.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Ninject.Web.Mvc.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\NLog.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Quartz.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Quartz.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\RestSharp.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\StructureMap.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\StructureMap.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Optimization.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.WebPages.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Http.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Twilio.Api.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Twilio.Api.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Twilio.Mvc.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Twilio.Mvc.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Twilio.Twiml.pdb
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Twilio.Twiml.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\WebMatrix.Data.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\WebMatrix.WebData.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\Mono.Math.xml
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\de\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\es\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\fr\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\it\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\nl\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\pl\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\pt\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\ru\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\sv\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\bin\tr\FluentValidation.resources.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\obj\Debug\Helix.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\obj\Debug\Helix.dll
+C:\Users\DELL\Desktop\bharat\HelixProject\Helix\obj\Debug\Helix.pdb
+D:\bharat\HelixProject\Helix\bin\Helix.dll.config
+D:\bharat\HelixProject\Helix\bin\Helix.dll
+D:\bharat\HelixProject\Helix\bin\Helix.pdb
+D:\bharat\HelixProject\Helix\bin\ABrain.AmazonMWS.dll
+D:\bharat\HelixProject\Helix\bin\Antlr3.Runtime.dll
+D:\bharat\HelixProject\Helix\bin\AutoMapper.dll
+D:\bharat\HelixProject\Helix\bin\AutoMapper.Net4.dll
+D:\bharat\HelixProject\Helix\bin\Common.Logging.Core.dll
+D:\bharat\HelixProject\Helix\bin\Common.Logging.dll
+D:\bharat\HelixProject\Helix\bin\Dapper.dll
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.AspNet.dll
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.Core.dll
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.dll
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.dll
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\bharat\HelixProject\Helix\bin\FluentValidation.dll
+D:\bharat\HelixProject\Helix\bin\Helix.Core.dll
+D:\bharat\HelixProject\Helix\bin\Helix.Entity.dll
+D:\bharat\HelixProject\Helix\bin\Helix.Service.dll
+D:\bharat\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Core.dll
+D:\bharat\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.dll
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.Cookies.dll
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.dll
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.OAuth.dll
+D:\bharat\HelixProject\Helix\bin\Microsoft.Web.Infrastructure.dll
+D:\bharat\HelixProject\Helix\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\bharat\HelixProject\Helix\bin\Newtonsoft.Json.dll
+D:\bharat\HelixProject\Helix\bin\Ninject.dll
+D:\bharat\HelixProject\Helix\bin\Ninject.Web.Common.dll
+D:\bharat\HelixProject\Helix\bin\Ninject.Web.Mvc.dll
+D:\bharat\HelixProject\Helix\bin\Ninject.WebApi.DependencyResolver.dll
+D:\bharat\HelixProject\Helix\bin\NLog.dll
+D:\bharat\HelixProject\Helix\bin\Owin.dll
+D:\bharat\HelixProject\Helix\bin\Quartz.dll
+D:\bharat\HelixProject\Helix\bin\RestSharp.dll
+D:\bharat\HelixProject\Helix\bin\StructureMap.dll
+D:\bharat\HelixProject\Helix\bin\System.Net.Http.Formatting.dll
+D:\bharat\HelixProject\Helix\bin\System.Web.Helpers.dll
+D:\bharat\HelixProject\Helix\bin\System.Web.Http.dll
+D:\bharat\HelixProject\Helix\bin\System.Web.Http.WebHost.dll
+D:\bharat\HelixProject\Helix\bin\System.Web.Mvc.dll
+D:\bharat\HelixProject\Helix\bin\System.Web.Optimization.dll
+D:\bharat\HelixProject\Helix\bin\System.Web.Razor.dll
+D:\bharat\HelixProject\Helix\bin\System.Web.WebPages.Deployment.dll
+D:\bharat\HelixProject\Helix\bin\System.Web.WebPages.dll
+D:\bharat\HelixProject\Helix\bin\System.Web.WebPages.Razor.dll
+D:\bharat\HelixProject\Helix\bin\Twilio.Api.dll
+D:\bharat\HelixProject\Helix\bin\Twilio.Mvc.dll
+D:\bharat\HelixProject\Helix\bin\Twilio.Twiml.dll
+D:\bharat\HelixProject\Helix\bin\WebActivatorEx.dll
+D:\bharat\HelixProject\Helix\bin\WebGrease.dll
+D:\bharat\HelixProject\Helix\bin\WebMatrix.Data.dll
+D:\bharat\HelixProject\Helix\bin\WebMatrix.WebData.dll
+D:\bharat\HelixProject\Helix\bin\DocumentFormat.OpenXml.dll
+D:\bharat\HelixProject\Helix\bin\GoogleMaps.LocationServices.dll
+D:\bharat\HelixProject\Helix\bin\Org.Mentalis.Security.Cryptography.dll
+D:\bharat\HelixProject\Helix\bin\Mono.Math.dll
+D:\bharat\HelixProject\Helix\bin\Helix.Core.pdb
+D:\bharat\HelixProject\Helix\bin\Helix.Entity.pdb
+D:\bharat\HelixProject\Helix\bin\Helix.Service.pdb
+D:\bharat\HelixProject\Helix\bin\Antlr3.Runtime.pdb
+D:\bharat\HelixProject\Helix\bin\AutoMapper.xml
+D:\bharat\HelixProject\Helix\bin\Common.Logging.pdb
+D:\bharat\HelixProject\Helix\bin\Common.Logging.xml
+D:\bharat\HelixProject\Helix\bin\Common.Logging.Core.pdb
+D:\bharat\HelixProject\Helix\bin\Common.Logging.Core.xml
+D:\bharat\HelixProject\Helix\bin\Dapper.pdb
+D:\bharat\HelixProject\Helix\bin\Dapper.xml
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.AspNet.xml
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.Core.xml
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.xml
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.xml
+D:\bharat\HelixProject\Helix\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\bharat\HelixProject\Helix\bin\FluentValidation.pdb
+D:\bharat\HelixProject\Helix\bin\FluentValidation.xml
+D:\bharat\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Core.xml
+D:\bharat\HelixProject\Helix\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.xml
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.xml
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.Cookies.xml
+D:\bharat\HelixProject\Helix\bin\Microsoft.Owin.Security.OAuth.xml
+D:\bharat\HelixProject\Helix\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\bharat\HelixProject\Helix\bin\Newtonsoft.Json.xml
+D:\bharat\HelixProject\Helix\bin\Ninject.xml
+D:\bharat\HelixProject\Helix\bin\Ninject.Web.Common.xml
+D:\bharat\HelixProject\Helix\bin\Ninject.Web.Mvc.xml
+D:\bharat\HelixProject\Helix\bin\NLog.xml
+D:\bharat\HelixProject\Helix\bin\Quartz.pdb
+D:\bharat\HelixProject\Helix\bin\Quartz.xml
+D:\bharat\HelixProject\Helix\bin\RestSharp.xml
+D:\bharat\HelixProject\Helix\bin\StructureMap.pdb
+D:\bharat\HelixProject\Helix\bin\StructureMap.xml
+D:\bharat\HelixProject\Helix\bin\System.Web.Helpers.xml
+D:\bharat\HelixProject\Helix\bin\System.Web.Mvc.xml
+D:\bharat\HelixProject\Helix\bin\System.Web.Optimization.xml
+D:\bharat\HelixProject\Helix\bin\System.Web.Razor.xml
+D:\bharat\HelixProject\Helix\bin\System.Web.WebPages.xml
+D:\bharat\HelixProject\Helix\bin\System.Web.WebPages.Deployment.xml
+D:\bharat\HelixProject\Helix\bin\System.Web.WebPages.Razor.xml
+D:\bharat\HelixProject\Helix\bin\System.Net.Http.Formatting.xml
+D:\bharat\HelixProject\Helix\bin\System.Web.Http.xml
+D:\bharat\HelixProject\Helix\bin\System.Web.Http.WebHost.xml
+D:\bharat\HelixProject\Helix\bin\Twilio.Api.pdb
+D:\bharat\HelixProject\Helix\bin\Twilio.Api.xml
+D:\bharat\HelixProject\Helix\bin\Twilio.Mvc.pdb
+D:\bharat\HelixProject\Helix\bin\Twilio.Mvc.xml
+D:\bharat\HelixProject\Helix\bin\Twilio.Twiml.pdb
+D:\bharat\HelixProject\Helix\bin\Twilio.Twiml.xml
+D:\bharat\HelixProject\Helix\bin\WebMatrix.Data.xml
+D:\bharat\HelixProject\Helix\bin\WebMatrix.WebData.xml
+D:\bharat\HelixProject\Helix\bin\Org.Mentalis.Security.Cryptography.xml
+D:\bharat\HelixProject\Helix\bin\Mono.Math.xml
+D:\bharat\HelixProject\Helix\bin\de\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\bin\es\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\bin\fr\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\bin\it\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\bin\nl\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\bin\pl\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\bin\pt\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\bin\ru\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\bin\sv\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\bin\tr\FluentValidation.resources.dll
+D:\bharat\HelixProject\Helix\obj\Debug\Helix.csprojResolveAssemblyReference.cache
+D:\bharat\HelixProject\Helix\obj\Debug\Helix.dll
+D:\bharat\HelixProject\Helix\obj\Debug\Helix.pdb

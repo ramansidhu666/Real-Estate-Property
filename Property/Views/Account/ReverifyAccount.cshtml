@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+<div class="color-line"></div>
+<div class="back-link">
+    <a ui-sref="login" class="btn btn-primary">Back to Login</a>
+</div>
+<div class="error-container">
+    <i class="pe-7s-key text-success big-icon"></i>
+    <h3 class="font-size-25 font-bold color-orange">Email Verification Pending!</h3>
+    <p class="font-size-15">
+        Your email verfication is pending. An email had been send you the time of registartion. Please check your email & click on verification link.
+    </p>
+    <p class="font-size-15">
+        Or
+    </p>
+    <div class="hpanel" ng-controller="loginController">
+        <div class="panel-body">
+            <p>
+                {{getWord('Enter your email address and email will be send to you')}}.
+            </p>
+            <form name="reverifyAccountForm">
+                <div class="form-group">
+                    <label class="control-label" for="username">{{getWord('Email')}}</label>
+                    <input type="email" placeholder="example@gmail.com" title="{{getWord('Please enter you email adress')}}" ng-model="user.email" ng-maxlength="50" maxlength="50" ng-required="true" name="email" class="form-control">
+                    <span class="help-block small">{{getWord('Your registered email address')}}</span>
+                    <div class="m-t-xs" ng-show="reverifyAccountForm.email.$touched && reverifyAccountForm.email.userName.$invalid">
+                        <span class="text-danger" ng-show="reverifyAccountForm.email.$error.required">
+                            <i class="fa fa-exclamation-triangle"></i> Please enter a valid email.
+                        </span>
+                        <span class="text-danger" ng-show="reverifyAccountForm.email.$error.maxlength">
+                            <i class="fa fa-exclamation-triangle"></i> Maximum length is 50.
+                        </span>
+                        <span class="text-danger" ng-show="reverifyAccountForm.email.$error.email">
+                            <i class="fa fa-exclamation-triangle"></i> Please enter a valid email.
+                        </span>
+                    </div>
+                </div>
+
+                <button ladda="loading" class="ladda-button ladda-button-demo btn btn-success btn-block" data-style="zoom-in" ng-click="clickResendLink()">{{getWord('Resend link')}}</button>
+            </form>
+        </div>
+    </div>
+<a ui-sref="login" class="btn btn-xs btn-success">Go back to login</a>
+</div>

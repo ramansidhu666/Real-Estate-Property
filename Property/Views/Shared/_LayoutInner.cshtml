@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7 no-js" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en" class="no-js">
+<head>
+    <!-- Basic need -->
+    <title>ReaLand</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ReaLand - Real Estate HTML Template">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="profile" href="">
+    <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+    <!-- Mobile specific meta -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone-no">
+    <!-- External Fonts -->
+    
+    <!-- CSS files -->
+   @Styles.Render("~/styles/web-themes/base/css")
+</head>
+
+
+<body>
+    
+    @*<div id="page-loader" class="dimissloader">
+        <div class="page-loader__logo">
+            <img src="~/images/uploads/logo_dark.png" alt="ReaLand Logo">
+        </div><!-- .page-loader__logo -->
+
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div><!-- .sk-folding-cube -->
+    </div>*@
+
+    <!-- Page view wrapper -->
+    <header class="header header--blue">
+        <div class="container">
+            <div class="header__main">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <h1 class="screen-reader-text">Realand</h1>
+                        <img src="../images/uploads/logo.png" alt="Realand">
+                    </a>
+                </div><!-- .header__logo -->
+                <div class="nav-mobile">
+                    <a href="#" class="nav-toggle">
+                        <span></span>
+                    </a><!-- .nav-toggle -->
+                </div><!-- .nav-mobile -->
+                <div class="header__menu header__menu--v6">
+                    <ul class="header__nav">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link header__nav-link--v2">Home</a>
+                            <ul>
+                                <li><a href="index.html">Home 1</a></li>
+                                <li><a href="index_2.html">Home 2</a></li>
+                                <li><a href="index_3.html">Home 3</a></li>
+                                <li><a href="index_4.html">Home 4</a></li>
+                                <li><a href="index_5.html">Home 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link header__nav-link--v2">Listing</a>
+                            <ul>
+                                <li><a href="listing_1.html">Listing List 1</a></li>
+                                <li><a href="listing_5.html">Listing List 2</a></li>
+                                <li><a href="listing_2.html">Listing Grid</a></li>
+                                <li><a href="listing_3.html">Listing Full Map</a></li>
+                                <li><a href="listing_4.html">Listing Half Map</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link header__nav-link--v2">Property</a>
+                            <ul>
+                                <li><a href="single_property_1.html">Single Property 1</a></li>
+                                <li><a href="single_property_2.html">Single Property 2</a></li>
+                                <li><a href="single_property_3.html">Single Property 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link header__nav-link--v2">Pages</a>
+                            <ul>
+                                <li><a href="about_us.html">About Us</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="agents.html">Agent List</a></li>
+                                <li><a href="agents_single.html">Agent Single</a></li>
+                                <li><a href="coming_soon.html">Coming Soon</a></li>
+                                <li><a href="404.html">404 Page</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__nav-item"><a href="blog.html" class="header__nav-link header__nav-link--v2">Blog</a></li>
+                    </ul><!-- .header__nav -->
+                    <ul class="topbar__user topbar__user--uppercase">
+                        <li><a href="#" class="topbar__link topbar__link--white">Sign In</a></li>
+                        <li><a href="#" class="topbar__link topbar__link--white">Join</a></li>
+                    </ul>
+                    <a href="#" class="header__cta header__cta--outline">&plus; Submit Property</a>
+                </div><!-- .header__menu -->
+            </div><!-- .header__main -->
+        </div><!-- .container -->
+    </header><!-- .header -->
+
+    @RenderBody()
+
+
+    @Scripts.Render("~/bundles/assets/jquery")
+    @RenderSection("scripts", required: false)
+    
+</body>
+<footer class="footer">
+    <div class="footer__links" style="display:none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-4 footer__links-single">
+                    <h3 class="footer__title">Contact Us</h3>
+                    <ul class="footer__list">
+                        <li><span class="footer--highlighted">Address:</span> <a href="#">200 East 65th Street 17NO, New York</a></li>
+                        <li><span class="footer--highlighted">Email:</span> <a href="mailto:ReaLand@support.com">ReaLand@support.com</a></li>
+                        <li><span class="footer--highlighted">Phone:</span> <a href="tel:+8802993999">(880)-288-3999</a></li>
+                        <li><span class="footer--highlighted">Fax:</span> <a href="#">(880)-288-3689</a></li>
+                    </ul><!-- .footer__list -->
+                </div><!-- .col -->
+                <div class="col-sm-4 col-md-2 footer__links-single">
+                    <h3 class="footer__title">Buy</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">Homes for Sale</a></li>
+                        <li><a href="#">Open Houses</a></li>
+                        <li><a href="#">New Listings</a></li>
+                        <li><a href="#">Recently Reduced</a></li>
+                        <li><a href="#">Off-Market Homes</a></li>
+                    </ul><!-- .footer__list -->
+                </div><!-- .col -->
+                <div class="col-sm-4 col-md-2 footer__links-single">
+                    <h3 class="footer__title">Sell</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">Sell Your Home</a></li>
+                        <li><a href="#">Get a Home Valuation</a></li>
+                        <li><a href="#">Local Home Prices</a></li>
+                        <li><a href="#">Guides & Rules</a></li>
+                        <li><a href="#">Others</a></li>
+                    </ul><!-- .footer__list -->
+                </div><!-- .col -->
+                <div class="col-sm-4 col-md-2 footer__links-single">
+                    <h3 class="footer__title">My ReaLand</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">Favorites</a></li>
+                        <li><a href="#">Save Searches</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Join Us</a></li>
+                    </ul><!-- .footer__list -->
+                </div><!-- .col -->
+                <div class="col-sm-4 col-md-2 footer__links-single">
+                    <h3 class="footer__title">ReaLand Estate</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Management Team</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul><!-- .footer__list -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .footer__links -->
+    <div class="footer__main">
+        <div class="container">
+            <div class="footer__logo">
+                <h1 class="screen-reader-text">ReaLand</h1>
+                <img src="~/images/uploads/logo_dark.png" alt="ReaLand">
+            </div><!-- .footer__logo -->
+            <p class="footer__desc">ReaLand is made for buying and selling houses faster, easier and customized for you.</p>
+            <ul class="footer__social">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            </ul><!-- .footer__social -->
+        </div><!-- .container -->
+    </div><!-- .footer__main -->
+    <div class="footer__copyright">
+        <div class="container">
+            <div class="footer__copyright-inner">
+                <p class="footer__copyright-desc">
+                    &copy; 2017 <span class="footer--highlighted">ReaLand</span> Real Estate. All Right Reserved.
+                </p>
+                <ul class="footer__copyright-list">
+                    <li><a href="#">Neighborhood Guide</a></li>
+                    <li><a href="#">Market Trends</a></li>
+                    <li><a href="#">Schools</a></li>
+                    <li><a href="#">Real Estate Tips</a></li>
+                </ul>
+            </div><!-- .footer__copyright-inner -->
+        </div><!-- .container -->
+    </div><!-- .footer__copyright -->
+</footer><!-- .footer -->
+</html>
+

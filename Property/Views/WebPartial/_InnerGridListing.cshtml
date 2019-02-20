@@ -1,0 +1,41 @@
+﻿@model Property.Entity.MainModel
+
+
+        @foreach (var item in Model.PropertiesModel)
+        {
+           
+                <div class="col-md-6 item-grid__container">
+                    <div class="listing">
+                        <div class="item-grid__image-container">
+                            <a href="@Url.Action("GetPropertyDetail", "Property",new {PropertyType="Residential",MLS=item.MLS.ToString() })" style="height:369px">
+                                <div class="item-grid__image-overlay"></div><!-- .item-grid__image-overlay -->
+                                <img src="@item.pImage" alt="Real House Luxury Villa" class="listing__img img_height">
+                                <span class="listing__favorite"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                            </a>
+                        </div><!-- .item-grid__image-container -->
+                        <div class="item-grid__content-container">
+                            <div class="listing__content">
+                                <div class="listing__header">
+                                    <div class="listing__header-primary">
+                                        <h3 class="listing__title"><a href="single_property_1.html">@item.DirectionsCrossStreets</a></h3>
+                                        <p class="listing__location"><span class="ion-ios-location-outline listing__location-icon"></span> @item.Address</p>
+                                    </div><!-- .listing__header-primary -->
+                                    <p class="listing__price">@item.ListPrice</p>
+                                </div><!-- .listing__header -->
+                                <div class="listing__details">
+                                    <ul class="listing__stats">
+
+                                        <li><span class="listing__figure">@(item.Bedrooms != null ? item.Bedrooms : "0")<sup>&plus;</sup></span> Beds</li>
+                                        <li><span class="listing__figure">@item.Washrooms</span> Washrooms</li>
+                                        <li><span class="listing__figure">@item.Kitchens</span> Kitchen</li>
+                                    </ul><!-- .listing__stats -->
+                                    <a href="@Url.Action("GetPropertyDetail", "Property",new {PropertyType=Model.CurrentPropertyType,MLS=item.MLS.ToString() })" class="listing__btn">Details <span class="listing__btn-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                                </div><!-- .listing__details -->
+                            </div><!-- .listing-content -->
+                        </div><!-- .item-grid__content-container -->
+                    </div><!-- .listing -->
+                </div><!-- .col -->
+
+            
+        }
+  

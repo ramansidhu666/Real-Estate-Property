@@ -1,0 +1,85 @@
+﻿@{
+    Layout = null;
+}
+
+<div id="logo" class="light-version" ng-show="session.IsAuth">
+    <span>
+        Property
+    </span>     
+</div>
+<nav role="navigation" ng-show="session.IsAuth">
+    <minimaliza-menu ng-show="session.IsAccountSetup"></minimaliza-menu>
+    <div class="small-logo">    
+        <span class="text-primary">Property APP</span>
+    </div>
+    @*<form role="search" class="navbar-form-custom" method="post" action="#">
+        <div class="form-group">
+            <input type="text" placeholder="Search something special" class="form-control" name="search">
+        </div>
+    </form>*@
+    <div class="mobile-menu">
+        <button type="button" class="navbar-toggle mobile-menu-toggle" data-toggle="collapse" data-target="#mobile-collapse">
+            <i class="fa fa-chevron-down"></i>
+        </button>
+        <div class="collapse mobile-navbar" id="mobile-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a ui-sref="login">Login</a>
+                </li>
+                <li>
+                    <a ui-sref="login">Logout</a>
+                </li>
+                <li>
+                    <a ui-sref="app_views.profile">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </div>          
+    <div class="navbar-right">
+        <ul class="nav navbar-nav no-borders">
+            <li uib-dropdown ng-show="session.IsAccountSetup">
+                <a class="label-menu-corner" href="#" uib-dropdown-toggle>
+                    <i class="pe-7s-mail"></i>
+                    <span class="label label-success">4</span>
+                </a>
+                <ul uib-dropdown-menu class="hdropdown animated flipInX">
+                    <div class="title">
+                        You have 4 new messages
+                    </div>
+                    <li>
+                        <a>
+                            It is a long established.
+                        </a>
+                    </li> 
+                    <li>
+                        <a>
+                            There are many variations.
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Lorem Ipsum is simply dummy.
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Contrary to popular belief.
+                        </a>
+                    </li>
+                    <li class="summary"><a href="#">See All Messages</a></li>
+                </ul>
+            </li> 
+            @*<li>
+                <a ng-click="$root.rightSidebar = !$root.rightSidebar">
+                    <i class="pe-7s-upload pe-7s-news-paper"></i>
+                </a>
+            </li>*@
+            <li>
+                <a ui-sref="login">
+                    <i class="pe-7s-upload pe-rotate-90"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+

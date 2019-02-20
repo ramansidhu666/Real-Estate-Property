@@ -1,0 +1,407 @@
+﻿@model Property.Entity.PropertyModel
+@{
+    ViewBag.Title = "GetPropertyDetail";
+    Layout = "~/Views/Shared/_Layoutinner.cshtml";
+}
+
+
+<section class="property">
+    <ul class="ht-breadcrumbs ht-breadcrumbs--y-padding ht-breadcrumbs--b-border">
+        <div class="container">
+            <li class="ht-breadcrumbs__item"><a href="#" class="ht-breadcrumbs__link"><span class="ht-breadcrumbs__title">Home</span></a></li>
+            <li class="ht-breadcrumbs__item"><a href="#" class="ht-breadcrumbs__link"><span class="ht-breadcrumbs__title">Property</span></a></li>
+            <li class="ht-breadcrumbs__item"><span class="ht-breadcrumbs__page">Single Property V1</span></li>
+        </div><!-- .container -->
+    </ul><!-- ht-breadcrumb -->
+    <div class="property__header">
+        <div class="container">
+            <div class="property__header-container">
+                <ul class="property__main">
+                    <li class="property__title property__main-item">
+                        <div class="property__meta">
+                            <span class="property__offer">For sale</span>
+                            <span class="property__type">Luxury House</span>
+                        </div><!-- .property__meta -->
+                        <h2 class="property__name">@Model.Address</h2>
+                        <span class="property__address"><i class="ion-ios-location-outline property__address-icon"></i>@Model.Area,@Model.Community,@Model.PostalCode,@Model.MunicipalityDistrict</span>
+                    </li>
+                    <li class="property__details property__main-item">
+                        <ul class="property__stats">
+                            <li class="property__stat"><span class="property__figure">@Model.Bedrooms<sup>&plus;</sup></span> Beds</li>
+                            <li class="property__stat"><span class="property__figure">@Model.Washrooms</span> Baths</li>
+                            <li class="property__stat"><span class="property__figure">@Model.ParkingSpaces</span> Parking</li>
+                        </ul><!-- .listing__stats -->
+                    </li>
+                    <li class="property__price property__main-item">
+                        <h4 class="property__price-primary">@Model.ListPrice</h4>
+                        <span class="property__price-secondary">$4,824/sq.ft</span>
+                    </li>
+                </ul><!-- .property__main -->
+                <ul class="property__list">
+                    @*<li class="property__item">
+                        <a href="#" onclick="showmap();" id="showimage" class="property__link">
+                            <i class="fa fa-heart-o property__icon" aria-hidden="true"></i>
+                            <span class="property__item-desc">ShowImage</span>
+                        </a>
+                    </li>*@
+                    <li class="property__item">
+                        <a href="#" onclick="showmap();" id="showmap" class="property__link">
+                            <i class="ion-ios-loop-strong property__icon"></i>
+                            <span class="property__item-desc">ShowMap</span>
+                        </a>
+                    </li>
+                    <li class="property__item">
+                        <a href="#" class="property__link">
+                            <i class="ion-android-share-alt property__icon"></i>
+                            <span class="property__item-desc">Share</span>
+                        </a>
+                    </li>
+                </ul><!-- .property__list -->
+            </div><!-- .property__header-container -->
+        </div><!-- .container -->
+    </div><!-- .property__header -->
+    <div class="property__slider">
+        <div class="container">
+            <div id="img_slider" class="property__slider-container property__slider-container--vertical">
+                <ul class="property__slider-nav property__slider-nav--vertical">
+                    @foreach (var item in Model.PropertyImages)
+                    {
+                        <li class="property__slider-item">
+                            <img src="@item.Image" alt="Image 1">
+                        </li>
+                    }
+
+                </ul><!-- .property__slider-nav -->
+                <div class="property__slider-main property__slider-main--vertical">
+                    <div class="property__slider-images">
+                        @foreach (var item in Model.PropertyImages)
+                        {
+                            <div class="property__slider-image">
+                                <img src="@item.Image" alt="Image 1" style="width:1000px;height:610px">
+                            </div>
+                        }
+
+
+                    </div><!-- .property__slider-images -->
+                    <ul class="image-navigation">
+                        <li class="image-navigation__prev">
+                            <span class="ion-ios-arrow-left"></span>
+                        </li>
+                        <li class="image-navigation__next">
+                            <span class="ion-ios-arrow-right"></span>
+                        </li>
+                    </ul>
+                    <span class="property__slider-info"><i class="ion-android-camera"></i><span class="sliderInfo"></span></span>
+                </div><!-- .property__slider-main -->
+            </div><!-- .property__slider-container -->
+            <div id="mapId" class="main-listing--col-md-12">
+                <section class="map-container map-container--sticky">
+                    <div id="map" class="map--default" ></div><!-- #map -->
+                    <ul class="map-controls">
+                        <li class="map-control map-reset"><i class="ion-ios-loop-strong map-control__icon"></i></li>
+                        <li class="map-control map-expand"><i class="ion-arrow-expand map-control__icon" aria-hidden="true"></i></li>
+                        <li class="map-control map-prev"><i class="ion-ios-arrow-left map-control__icon"></i></li>
+                        <li class="map-control map-next"><i class="ion-ios-arrow-right map-control__icon"></i></li>
+                    </ul><!-- .map-controls -->
+                </section><!-- .map-container -->
+            </div><!-- .col -->
+        </div><!-- .container -->
+    </div><!-- .property__slider -->
+    <div class="property__container">
+        <div class="container">
+            <div class="row">
+                <aside class="col-md-3">
+                    <div class="widget__container">
+                        <section class="widget">
+                            <form class="contact-form contact-form--white">
+                                <div class="contact-form__header">
+                                    <div class="contact-form__header-container">
+                                        <img src="/images/uploads/contact_agent.png" alt="Tristina Avelon">
+                                        <div class="contact-info">
+                                            <span class="contact-company">Realand Real Estate</span>
+                                            <h3 class="contact-name"><a href="#">Tristina Avelon</a></h3>
+                                            <a href="tel:+8002883991" class="contact-number">Call: (800) 288 3991</a>
+                                        </div><!-- .contact-info -->
+                                    </div><!-- .contact-form__header-container -->
+                                </div><!-- .contact-form__header -->
+
+                                <div class="contact-form__body">
+                                    <input type="text" class="contact-form__field" placeholder="Name" name="name" required>
+                                    <input type="email" class="contact-form__field" placeholder="Email" name="email" required>
+                                    <input type="tel" class="contact-form__field" placeholder="Phone number" name="phone number">
+                                    <textarea class="contact-form__field contact-form__comment" cols="30" rows="5" placeholder="Comment" name="comment" required>I am interested in Golden House Place 72, 1633 Newcomb Ave, San Francisco, CA 94124</textarea>
+                                </div><!-- .contact-form__body -->
+                                <div class="contact-form__footer">
+                                    <input type="submit" class="contact-form__submit" name="submit" value="Contact Agent">
+                                </div><!-- .contact-form__footer -->
+                            </form><!-- .contact-form -->
+                        </section><!-- .widget -->
+                       
+                        <section class="widget widget--white widget--padding-20">
+                            <h3 class="widget__title">Mortgage Calculator</h3>
+                            <form class="form-calculator">
+                                <div class="form-calculator__group">
+                                    <label for="home-price" class="form-calculator__label">Home Price</label>
+                                    <span class="form-calculator__icon form-calculator__currency">$</span>
+                                    <input id="home-price" type="text" class="form-calculator__field" required value="2,568,000">
+                                </div><!-- .form-calculator__group -->
+                                <div class="form-calculator__wrapper">
+                                    <div class="form-calculator__group form-calculator__group--larger">
+                                        <label for="down-payment" class="form-calculator__label">Down Payment</label>
+                                        <span class="form-calculator__icon form-calculator__currency">$</span>
+                                        <input id="down-payment" type="text" class="form-calculator__field" required value="317,600">
+                                    </div><!-- .form-calculator__group -->
+                                    <div class="form-calculator__group form-calculator__group--smaller">
+                                        <label for="percent" class="form-calculator__label">Percent</label>
+                                        <span class="form-calculator__icon form-calculator__percent">%</span>
+                                        <input id="percent" type="text" class="form-calculator__field" required value="20">
+                                    </div><!-- .form-calculator__group -->
+                                </div><!-- .form-calculator__wrapper -->
+                                <div class="form-calculator__group">
+                                    <label for="annual-rate" class="form-calculator__label">Annual Interest Rate</label>
+                                    <span class="form-calculator__icon form-calculator__percent">%</span>
+                                    <input id="annual-rate" type="text" class="form-calculator__field" required value="3.5">
+                                </div><!-- .form-calculator__group -->
+                                <div class="form-calculator__group">
+                                    <label for="loan-term" class="form-calculator__label">Loan Term (Years)</label>
+                                    <select id="loan-term" class="ht-field" required>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10" selected>10</option>
+                                    </select>
+                                </div><!-- .form-calculator__group -->
+                                <div class="form-calculator__group">
+                                    <label for="percent" class="form-calculator__label">Payment Method</label>
+                                    <select id="percent" class="ht-field" required>
+                                        <option value="Weekly">WEEKLY</option>
+                                        <option value="Monthly" selected>MONTHLY</option>
+                                        <option value="Bi-Weekly">BI-WEEKLY</option>
+                                    </select>
+                                </div><!-- .form-calculator__group -->
+                                <input type="submit" class="form-calculator__submit" value="Calculate">
+
+                                <div class="form-calculator__result">
+                                    <h3 class="mortgage-payment">Mortgage Payments: <span>$22253.28</span></h3>
+                                </div>
+                            </form><!-- .form-calculator -->
+                        </section><!-- .widget -->
+                      
+                    </div><!-- .widget__container -->
+                </aside>
+
+                <main class="col-md-9">
+                    <div class="property__feature-container">
+                        <div class="property__feature">
+                            <h3 class="property__feature-title property__feature-title--b-spacing">Property Details</h3>
+                            <ul class="property__details-list">
+                                <li class="property__details-item"><span class="property__details-item--cat">Type:</span> Flat, Low-Rise (1-3)</li>
+                                <li class="property__details-item"><span class="property__details-item--cat">Year Built:</span> 1890</li>
+                                <li class="property__details-item"><span class="property__details-item--cat">Square Footage:</span> 1752</li>
+                                <li class="property__details-item"><span class="property__details-item--cat">Property Subtype:</span> Condominium</li>
+                                <li class="property__details-item"><span class="property__details-item--cat">Property Type:</span> Condo/Coop/TIC/Loft</li>
+                                <li class="property__details-item"><span class="property__details-item--cat">HOA Dues:</span> 375 HOA</li>
+                                <li class="property__details-item"><span class="property__details-item--cat">Fee Includes:</span> Water, Electricity, Garbage, Ext Bldg Maintainance, Security Service, Homeowners Insurance</li>
+                                <li class="property__details-item"><span class="property__details-item--cat">HOA:</span> Yes</li>
+                            </ul><!-- .property__details-list -->
+                        </div><!-- .property__feature -->
+
+                        <div class="property__feature">
+                            <h3 class="property__feature-title property__feature-title--b-spacing">Property Description</h3>
+                            <p>Spacious and grand, 3 bedroom, 2 bath (one en-suite) condo boasts 1,752 Sq Ft. Middle unit of a beautiful three-unit 1890's Victorian designed by William Armitage. Period details: high ceilings, ornate moldings, 2 fireplaces, stained glass, beveled glass transoms, hardwood floors. Spacious dining room, remodeled kitchen and wonderful deeded walk-out deck. Convenient in-unit laundry room, deeded parking & storage space.</p>
+                            <p>Nested among stunning Victorians and located in the vibrant Alamo Square District near the park, Painted Ladies and bustling Divisadero and Fillmore St. corridors. Easy access to downtown's Financial district and public transportation. Walk Score of 93 (paradise).</p>
+                        </div><!-- .property__feature -->                    
+                        
+                       
+                        <div class="property__feature">
+                            <div class="property__feature-header">
+                                <h3 class="property__feature-title">Near By</h3>
+                                <nav class="property__tab-list">
+                                    <a href="#property-school" class="property__tab property__tab--active">School (3)</a>
+                                    <a href="#property-market" class="property__tab">Market (2)</a>
+                                    <a href="#property-restaurant" class="property__tab">Restaurant (5)</a>
+                                    <a href="#property-cafe" class="property__tab">Cafe (1)</a>
+                                    <a href="#property-hospital" class="property__tab">Hospital (1)</a>
+                                </nav>
+                            </div><!-- .property__feature-header -->
+                            <div class="property__tab-container">
+                                <table class="property__tab-content is-visible" id="property-school">
+                                    <thead>
+                                        <tr>
+                                            <th>List number / Name</th>
+                                            <th>Distance</th>
+                                            <th>Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="list-number">1</span> GuangZhu Chinese Education Center</td>
+                                            <td>1.5km</td>
+                                            <td>Language Center</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="list-number">2</span> Galileo High School</td>
+                                            <td>3km</td>
+                                            <td>High School</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="list-number">3</span> Daniel Webster Elementary School</td>
+                                            <td>5km</td>
+                                            <td>High School</td>
+                                        </tr>
+                                    </tbody>
+                                </table><!-- .property__tab-content -->
+                            </div><!-- .property__tab-container -->
+                            <div class="property__tab-container">
+                                <table class="property__tab-content" id="property-market">
+                                    <thead>
+                                        <tr>
+                                            <th>List number / Name</th>
+                                            <th>Distance</th>
+                                            <th>Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="list-number">1</span> Roche Bros.</td>
+                                            <td>2km</td>
+                                            <td>Grocery</td>
+                                        </tr>
+                                    <td><span class="list-number">2</span> Mings Supermarket</td>
+                                    <td>5km</td>
+                                    <td>Grocery</td>
+                                    </tbody>
+                                </table><!-- .property__tab-content -->
+                            </div><!-- .property__tab-container -->
+                            <div class="property__tab-container">
+                                <table class="property__tab-content" id="property-restaurant">
+                                    <thead>
+                                        <tr>
+                                            <th>List number / Name</th>
+                                            <th>Distance</th>
+                                            <th>Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="list-number">1</span> Ostra</td>
+                                            <td>4km</td>
+                                            <td>Seafood</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="list-number">2</span> Mistral</td>
+                                            <td>2.5km</td>
+                                            <td>French</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="list-number">3</span> The Capital Grille</td>
+                                            <td>3km</td>
+                                            <td>American</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="list-number">4</span> Davio's</td>
+                                            <td>6km</td>
+                                            <td>Italian</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="list-number">5</span> Sorellina</td>
+                                            <td>5km</td>
+                                            <td>Italian</td>
+                                        </tr>
+                                    </tbody>
+                                </table><!-- .property__tab-content -->
+                            </div><!-- .property__tab-container -->
+                            <div class="property__tab-container">
+                                <table class="property__tab-content" id="property-cafe">
+                                    <thead>
+                                        <tr>
+                                            <th>List number / Name</th>
+                                            <th>Distance</th>
+                                            <th>Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="list-number">1</span> Thinking Cup</td>
+                                            <td>2km</td>
+                                            <td>Fast Service</td>
+                                        </tr>
+                                    </tbody>
+                                </table><!-- .property__tab-content -->
+                            </div><!-- .property__tab-container -->
+                            <div class="property__tab-container">
+                                <table class="property__tab-content" id="property-hospital">
+                                    <thead>
+                                        <tr>
+                                            <th>List number / Name</th>
+                                            <th>Distance</th>
+                                            <th>Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="list-number">1</span> Mass General Hospital Back Bay</td>
+                                            <td>3km</td>
+                                            <td>Medical Clinic</td>
+                                        </tr>
+                                    </tbody>
+                                </table><!-- .property__tab-content -->
+                            </div><!-- .property__tab-container -->
+                        </div><!-- .property__feature -->
+                      
+                    </div><!-- .property__feature-container -->
+                </main>
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .property__container -->
+</section><!-- .property -->
+<section class="newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 newsletter__content">
+                <img src="images/icon_mail.png" alt="Newsletter" class="newsletter__icon">
+                <div class="newsletter__text-content">
+                    <h2 class="newsletter__title">Newsletter</h2>
+                    <p class="newsletter__desc">Sign up for our newsletter to get up-to-date from us</p>
+                </div>
+            </div><!-- .col -->
+            <div class="col-md-6">
+                <form action="/" class="newsletter__form">
+                    <input type="email" class="newsletter__field" placeholder="Enter Your E-mail">
+                    <input type="submit" value="Subscribe" class="newsletter__submit">
+                </form>
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+</section><!-- .newsletter -->
+<script src="~/assets-frontend/js/jquery-1.12.4.min.js"></script>
+<script src="~/assets-frontend/js/Custom_GooleMap.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:700,800|Roboto:400,500,700" rel="stylesheet">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyCxHyc8z9gMA5IlipXpt0c33Ajzqix4&libraries=places"></script>
+<script src="https://cdn.rawgit.com/googlemaps/v3-utility-library/master/infobox/src/infobox.js"></script>
+
+<script>
+   
+    //function showmap()
+    //{
+        
+    //    if ($('#map').css('display') == 'none') {
+    //        debugger;
+    //        $('#map').show();
+    //        $('#img_slider').hide();
+    //    }
+    //    else {
+    //        debugger;
+    //        $('#map').hide();
+    //        $('#img_slider').show();
+    //    }
+        
+    //}
+    
+</script>
